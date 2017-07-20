@@ -5,18 +5,17 @@
 }
 nav{
     .nav-wrapper{
-        background-color: $cofee-background
+        background-color: $cofee-background;
     }
     li:hover{
-        background-color: $cofee-background;
+        
         a:hover{
             color: $hover;
         }
     }
 }
-body{
-    background-color: $cofee-background;
-}
+
+
 
 
 

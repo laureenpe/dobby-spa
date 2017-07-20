@@ -11,27 +11,35 @@
     <!--Font Awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!--CSS-->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="sass/main.css">
 </head>
 
 <body>
     <!--navbar-->
-    <nav class="container">
-        <div class="nav-wrapper center ">
-            <ul id="nav-mobile" class="center hide-on-med-and-down">
+    <nav class="nav-center">
+        <div class="nav-wrapper  ">
+            <ul id="nav-center" class="hide-on-med-and-down">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Careers </a></li>
                 <li><a href="#">Contact Us </a></li>
-
-
             </ul>
         </div>
     </nav>
-
+    <header>
+        <!--here goes the slider--> 
+        <div class="carousel carousel-slider"data-indicators="true">
+            <a class="carousel-item" href="#one!"><img src="img/slide3.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="img/slide2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="img/slide1.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="img/slide3.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/slide1.jpg"></a>
+        </div>
+    </header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="assets/init.js"></script>
 </body>
 
 </html>
