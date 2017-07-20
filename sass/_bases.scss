@@ -14,6 +14,35 @@ nav{
         }
     }
 }
+body{
+    background-color: $white-background;
+    .about{
+    background-color: $about-section;
+    p{
+        text-align: left;
+    }
+    h5{
+        text-align: center;
+    }
+    img{
+        border-radius: $border-radius;
+    }
+    
+}
+}
+.welcome{
+        background-color: $welcome-section;
+        img{
+            border-radius: $border-radius;
+        }
+    }
+
+footer{
+    .divider{
+        background-color: $divider;
+    }
+}
+
 
 
 

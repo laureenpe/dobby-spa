@@ -6,4 +6,23 @@ nav .nav-wrapper {
 nav li:hover a:hover {
   color: #f00; }
 
+body {
+  background-color: white; }
+  body .about {
+    background-color: #4a3a3a; }
+    body .about p {
+      text-align: left; }
+    body .about h5 {
+      text-align: center; }
+    body .about img {
+      border-radius: 8px; }
+
+.welcome {
+  background-color: #f4f4f4; }
+  .welcome img {
+    border-radius: 8px; }
+
+footer .divider {
+  background-color: black; }
+
 /*# sourceMappingURL=main.css.map */
