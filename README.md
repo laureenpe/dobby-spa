@@ -1,2 +1,6 @@
 # dobby-spa
-Archivos bases ejercicio enunciado Sass
+Replicate web page, using SASS.
+
+-Goal:
+![alt text](doc/vistadesktop.jpg "SASS")
+
