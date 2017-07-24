@@ -15,7 +15,7 @@ nav{
     }
 }
 body{
-    background-color: $white-background;
+    background-color: #e9e0b7;
     .about{
     background-color: $about-section;
     p{
@@ -30,6 +30,18 @@ body{
     
 }
 }
+/*Carousel*/
+.carousel{
+    border-bottom: 3px solid black;
+    
+}
+
+.carousel.carousel-slider {
+    
+    z-index: -1;
+}
+/*Header*/
+
 .welcome{
         background-color: $welcome-section;
         img{
@@ -38,13 +50,48 @@ body{
     }
 
 footer{
+    color: #dbbe86;
+    background-color: #2f1f1f;
     .divider{
-        background-color: $divider;
+        background-color: #fadda5;
     }
+
 }
 
+/*PICTURES*/
+.pictures{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -4%;
+    .circle{
+        border: 10px solid $border-circle;
+    }
+    medium{
+        text-transform: uppercase;
+        color: #343235;
+        font-weight: bold;
+    }
+    a{
+        color: #343235;
+        background-color: #dbbe86;
+    }
+    
+}
 
-
-
-
+/*WELCOME*/
+.welcome{
+    padding: 20px;
+    h5{
+        color: #d96c58;
+    }
+    a,li{
+        color: #343235;
+    }
+}
+/*ABOUT US*/
+.about{
+    color: #fadda5;
+    padding: 25px;
+    border-bottom: 5px solid white;
+}
 

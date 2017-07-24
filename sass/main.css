@@ -2,12 +2,12 @@
   font-family: "Raleway", sans-serif; }
 
 nav .nav-wrapper {
-  background-color: #5b3418; }
+  background-color: #2f1f1f; }
 nav li:hover a:hover {
   color: #f00; }
 
 body {
-  background-color: white; }
+  background-color: #e9e0b7; }
   body .about {
     background-color: #4a3a3a; }
     body .about p {
@@ -17,12 +17,52 @@ body {
     body .about img {
       border-radius: 8px; }
 
+/*Carousel*/
+.carousel {
+  border-bottom: 3px solid black; }
+
+.carousel.carousel-slider {
+  z-index: -1; }
+
+/*Header*/
 .welcome {
   background-color: #f4f4f4; }
   .welcome img {
     border-radius: 8px; }
 
-footer .divider {
-  background-color: black; }
+footer {
+  color: #dbbe86;
+  background-color: #2f1f1f; }
+  footer .divider {
+    background-color: #fadda5; }
+
+/*PICTURES*/
+.pictures {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -4%; }
+  .pictures .circle {
+    border: 10px solid #dbbe86; }
+  .pictures medium {
+    text-transform: uppercase;
+    color: #343235;
+    font-weight: bold; }
+  .pictures a {
+    color: #343235;
+    background-color: #dbbe86; }
+
+/*WELCOME*/
+.welcome {
+  padding: 20px; }
+  .welcome h5 {
+    color: #d96c58; }
+  .welcome a, .welcome li {
+    color: #343235; }
+
+/*ABOUT US*/
+.about {
+  color: #fadda5;
+  padding: 25px;
+  border-bottom: 5px solid white; }
 
 /*# sourceMappingURL=main.css.map */
